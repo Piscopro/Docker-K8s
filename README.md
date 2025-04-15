@@ -18,4 +18,4 @@ Access the application via external ip
 ![Database](spring-boot-docker/img/monitor.png)
 Monitor directly on GCP Console
 ![Database](spring-boot-docker/img/scale.png)
-Tested with 5000 requests, system automatically increase 1 cpu
+Tested with 5000 requests, system automatically increase 1 CPU
