@@ -11,11 +11,11 @@ This section describes deploy and monitor the application on Google Kubernetes E
 - Config LoadBalancer for public access
 
 ## Screenshot
-![Database](img/running.png)
+![Database](spring-boot-docker/img/running.png)
 "spring-boot-docker" has successfully deployed on GKE
-![Database](img/local.png)
+![Database](spring-boot-docker/img/local.png)
 Access the application via external ip
-![Database](img/monitor.png)
+![Database](spring-boot-docker/img/monitor.png)
 Monitor directly on GCP Console
-![Database](img/scale.png)
+![Database](spring-boot-docker/img/scale.png)
 Tested with 5000 requests, system automatically increase 1 cpu
