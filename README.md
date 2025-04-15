@@ -1,22 +1,21 @@
-For Docker and Kubernetes assignments, go to [Docker](spring-boot-docker) and [Kubernetes](top-spring-on-kubernetes-main)
-# CI/CD
+# GKE Deployment
 
 Name: Trần Vỹ Anh (StudentID: 22024508)
 
 ## Overview
-This section describes how to deploy the Spring Boot application to Kubernetes using GitOps principles with ArgoCD for continuous deployment.
+This section describes deploy and monitor the application on Google Kubernetes Engine.
 
 ## Key Features
-- Kubernetes manifest-based deployment
-- Continuous Deployment with ArgoCD
-- Automated synchronization between Git repository and Kubernetes cluster
-- Scalable and resilient application architecture
-- Resource management with CPU and memory limits
+- Containerize with Docker
+- Manually deploy to GKE
+- Config LoadBalancer for public access
 
 ## Screenshot
-### 1. Github Actions
-![Database](k8s-manifests/img/Actions.png)
-![Database](k8s-manifests/img/dockerhub.png)
-
-### 2. ArgoCD
-![Database](k8s-manifests/img/Argo.png)
+![Database](img/running.png)
+"spring-boot-docker" has successfully deployed on GKE
+![Database](img/local.png)
+Access the application via external ip
+![Database](img/monitor.png)
+Monitor directly on GCP Console
+![Database](img/scale.png)
+Tested with 5000 requests, system automatically increase 1 cpu
